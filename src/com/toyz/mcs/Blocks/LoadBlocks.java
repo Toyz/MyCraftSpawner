@@ -16,7 +16,7 @@ public class LoadBlocks {
 		for(String key : cs.getKeys(false)){
 			ConfigurationSection enity = cs.getConfigurationSection(key);
 			
-			map.put(key.toUpperCase(), new SpawnBlock(key, EntityType.fromName(key.toUpperCase()), enity.getStringList("recipe"), enity.getStringList("items")));
+			map.put(EntityType.fromName(key.toUpperCase()).name().toString(), new SpawnBlock(key, EntityType.fromName(key.toUpperCase()), enity.getStringList("recipe"), enity.getStringList("items")));
 		}
 		
 		return map;

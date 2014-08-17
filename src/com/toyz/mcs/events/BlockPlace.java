@@ -51,7 +51,7 @@ public class BlockPlace implements Listener {
 
 		if (lore.size() == 2) {
 			String checking = ChatColor.stripColor(lore.get(1).toLowerCase());
-			System.out.println(checking);
+			//System.out.println(checking);
 			if (checking.startsWith("spawn:")) {
 				return true;
 			}
@@ -74,6 +74,6 @@ public class BlockPlace implements Listener {
 	}
 
 	private EntityType GetMonster(String key) {
-		return EntityType.fromName(key);
+		return mcs.sBlocks.get(key.toUpperCase()).getMonster();//EntityType.fromName(key);
 	}
 }
