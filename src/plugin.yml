@@ -1,6 +1,6 @@
 name: MyCraftSpawner
 main: com.toyz.mcs.mcs
-version: 1.1
+version: 1.2
 author: Toyz
 description: Turns all spawners into a craftable item
 commands:
