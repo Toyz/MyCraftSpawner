@@ -21,10 +21,10 @@ public class BaseCommand implements CommandExecutor {
 	
 	protected static void sendMessage(String Message){
 		if(Info.isPlayer()){
-			Info.getPlayer().sendMessage("[" + ChatColor.BLUE + "MyCraftSpanwer" +ChatColor.WHITE + "] " + Message);
+			Info.getPlayer().sendMessage("[" + ChatColor.BLUE + "MyCraftSpawner" +ChatColor.WHITE + "] " + Message);
 		}
 		if(Info.isConsole()){
-			Info.getConsole().sendMessage("[" + ChatColor.BLUE + "MyCraftSpanwer" +ChatColor.WHITE + "] " + Message);
+			Info.getConsole().sendMessage("[" + ChatColor.BLUE + "MyCraftSpawner" +ChatColor.WHITE + "] " + Message);
 		}
 	}
 }

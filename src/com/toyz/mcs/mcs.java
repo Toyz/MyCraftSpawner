@@ -67,7 +67,7 @@ public class mcs extends JavaPlugin {
 			this.getServer()
 					.getConsoleSender()
 					.sendMessage(
-							"[" + ChatColor.BLUE + "MyCraftSpanwer"
+							"[" + ChatColor.BLUE + "MyCraftSpawner"
 									+ ChatColor.WHITE + "] Loaded: "
 									+ ChatColor.GREEN
 									+ sp.getValue().getMonster().name()
@@ -117,7 +117,7 @@ public class mcs extends JavaPlugin {
 			this.getServer()
 					.getConsoleSender()
 					.sendMessage(
-							"[" + ChatColor.BLUE + "MyCraftSpanwer"
+							"[" + ChatColor.BLUE + "MyCraftSpawner"
 									+ ChatColor.WHITE + "] Loaded: "
 									+ ChatColor.GREEN
 									+ sp.getValue().getMonster().name()
