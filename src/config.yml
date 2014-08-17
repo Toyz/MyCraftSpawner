@@ -1,0 +1,210 @@
+#  Pig: - Mob Name from http://jd.bukkit.org/rb/doxygen/d7/dbf/enumorg_1_1bukkit_1_1entity_1_1EntityType.html
+#    recipe:  - Formula for Crafting table 
+#      - '###' - First row
+#      - '#%#' - Second Row
+#      - '###' - Third Row
+#    items: - Items to replace in the recipe '#' is the char 'OBSIDIAN' is the item name from http://jd.bukkit.org/dev/apidocs/org/bukkit/Material.html
+#      - '#=OBSIDIAN'
+#      - '%=PORK'
+spawners:
+  Pig:
+    recipe:
+      - '###'
+      - '#%#'
+      - '###'
+    items:
+      - '#=OBSIDIAN'
+      - '%=PORK'
+  Cow:
+    recipe:
+      - '###'
+      - '#%#'
+      - '###'
+    items:
+      - '#=OBSIDIAN'
+      - '%=RAW_BEEF'
+  Zombie:
+     recipe:
+        - '###'
+        - '#%#'
+        - '###'
+     items:
+        - '#=OBSIDIAN'
+        - '%=ROTTEN_FLESH'
+  Sheep:
+     recipe:
+        - '###'
+        - '#%#'
+        - '###'
+     items:
+        - '#=OBSIDIAN'
+        - '%=WOOL'
+  Witch:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=BREWING_STAND'
+  Blaze:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=BLAZE_ROD'
+  LavaSlime:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=MAGMA_CREAM'
+  Slime:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=SLIME_BALL'
+  Skeleton:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=BONE'
+  Creeper:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=SULPHUR'
+  Enderman:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=ENDER_PEARL'
+  PigZombie:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=GOLD_NUGGET'
+  SilverFish:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=FLINT'
+  Spider:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=SPIDER_EYE'
+  CaveSpider:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=FERMENTED_SPIDER_EYE'   
+  MushroomCow:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=RED_MUSHROOM'    
+  Villager:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=EMERALD' 
+  VillagerGolem:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=IRON_BLOCK' 
+  Chicken:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=RAW_CHICKEN'
+  Ghast:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=GHAST_TEAR'
+  Squid:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=INK_SACK' 
+  SnowMan:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=SNOW_BLOCK' 
+  Ozelot:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=RAW_FISH' 
+  Wolf:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=Stick'
+  Witch:
+     recipe:
+          - '###'
+          - '#%#'
+          - '###'
+     items:
+          - '#=OBSIDIAN'
+          - '%=GLASS_BOTTLE'                     
+        
